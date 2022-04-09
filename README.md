@@ -1,6 +1,4 @@
-# generator-webpack-landing-page [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-
-> A Yeoman generator that creates a webpack configuration for landing page website
+## A Yeoman generator that creates a webpack configuration for landing page website
 
 ## Installation
 
@@ -17,20 +15,6 @@ Then generate your new project:
 yo webpack-landing-page
 ```
 
-## Getting To Know Yeoman
-
-- Yeoman has a heart of gold.
-- Yeoman is a person with feelings and opinions, but is very easy to work with.
-- Yeoman can be too opinionated at times but is easily convinced not to be.
-- Feel free to [learn more about Yeoman](http://yeoman.io/).
-
 ## License
 
-MIT © [potatocandie]()
-
-[npm-image]: https://badge.fury.io/js/generator-webpack-landing-page.svg
-[npm-url]: https://npmjs.org/package/generator-webpack-landing-page
-[travis-image]: https://travis-ci.com/empun/generator-webpack-landing-page.svg?branch=master
-[travis-url]: https://travis-ci.com/empun/generator-webpack-landing-page
-[daviddm-image]: https://david-dm.org/empun/generator-webpack-landing-page.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/empun/generator-webpack-landing-page
+MIT © [empun]()
