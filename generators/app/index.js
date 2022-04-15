@@ -58,10 +58,7 @@ module.exports = class extends Generator {
     );
     this.fs.write(
       this.destinationPath("web.config.js"),
-      `
-      const title = '${this.answers.webTitle}';
-      module.exports = title;
-      `
+      `module.exports = '${this.answers.webTitle}';\n`
     );
     this.fs.copy(
       this.templatePath("webpack.common.js"),
