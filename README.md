@@ -1,15 +1,24 @@
-## A Yeoman generator that creates a webpack configuration for landing page website
+# Generator Webpack Landing Page
+
+A Yeoman generator that creates gulp webpack starter project from this [repo](https://github.com/empun/webpack-starter-project.git)
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-webpack-landing-page using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+1. Install yeoman and clone this repo
 
 ```bash
 npm install -g yo
-npm install -g generator-webpack-landing-page
+git clone https://github.com/empun/generator-webpack-landing-page.git
 ```
 
-Then generate your new project:
+2. Link this repo
+
+```bash
+cd generator-webpack-landing-page
+npm link
+```
+
+3. Then generate your new project:
 
 ```bash
 yo webpack-landing-page
