@@ -52,6 +52,10 @@ module.exports = class extends Generator {
       this.templatePath("README.md"),
       this.destinationPath("README.md")
     );
+    this.fs.write(
+      this.destinationPath("README.md"),
+      `This project was generated from [https://github.com/empun/webpack-starter-project.git](https://github.com/empun/webpack-starter-project.git)`
+    );
     this.fs.copy(
       this.templatePath("web.config.js"),
       this.destinationPath("web.config.js")
